@@ -1,7 +1,7 @@
 # Hibot Parameters
 ## Festo Servo/Stepper
 
-![The param list of Cia402 moving protocal](s3://gadgethi-css/img_share/proj-008/param%20list%20of%20Cia402.png)
+![The param list of Cia402 moving protocal](http://gadgethi-css.s3.amazonaws.com/img_share/proj-008/param%20list%20of%20Cia402.png)
 
 ### Homing
 * Homing Method: [ID type] The integer for setting the homing method. Now we suggest two homing methods which are listed below.
@@ -10,9 +10,9 @@
 	17: Home on Negative Limit Switch
 	18: Home on Positive Limit Switch
 
-![Method 17](s3://gadgethi-css/img_share/proj-008/Homing%20Method%2017.png)
+![Method 17](http://gadgethi-css.s3.amazonaws.com/img_share/proj-008/Homing%20Method%2017.png)
 
-![Method 18](http://gadgethi-css.s3.amazonaws.com/img_share/proj-008/Homing%20Method%2018.pngee)
+![Method 18](http://gadgethi-css.s3.amazonaws.com/img_share/proj-008/Homing%20Method%2018.png)
 
 * Offset: [Int type] The offset length after the motor get home.
 * Home Speed: [Int type] The velocity as the motor is homing. If the homing speed is too large, the motor may run over the sensor and won't stop there.
