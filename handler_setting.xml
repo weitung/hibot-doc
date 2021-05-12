@@ -1,0 +1,142 @@
+<file>
+	<slave>
+		<No type="festo">1</No>
+		<HibotID type="multuple">IO</HibotID>
+		<Device>CPX-AP-I-EC</Device>
+		<Modules>
+			<module>
+				<HibotID type="multuple">1</HibotID>
+				<Slot>1</Slot>
+				<Name>CPX-AP-I-8DI-M8-3P</Name>
+				<InputBytes>1</InputBytes>
+				<OutputBytes>0</OutputBytes>
+			</module>
+			<module>
+				<HibotID type="multuple">2</HibotID>
+				<Slot>2</Slot>
+				<Name>CPX-AP-I-4AI-U-I-RTD-M12</Name>
+				<InputBytes>8</InputBytes>
+				<OutputBytes>0</OutputBytes>
+				<Params>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>1</SubIndex>
+						<Description>Temperature unit - Channel 0</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>2</SubIndex>
+						<Description>Temperature unit - Channel 1</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>3</SubIndex>
+						<Description>Temperature unit - Channel 2</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>4</SubIndex>
+						<Description>Temperature unit - Channel 3</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>5</SubIndex>
+						<Description>Signalrange - Channel 0</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>6</SubIndex>
+						<Description>Signalrange - Channel 1</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>7</SubIndex>
+						<Description>Signalrange - Channel 2</Description>
+						<Value>0</Value>
+					</param>
+					<param DependOnSlot="1">
+						<Index>2000</Index>
+						<SubIndex>8</SubIndex>
+						<Description>Signalrange - Channel 3</Description>
+						<Value>0</Value>
+					</param>
+				</Params>
+			</module>
+			<module>
+				<Slot>3</Slot>
+				<HibotID type="multuple">3</HibotID>
+				<Name>VAEM-L1-S-12-AP</Name>
+				<InputBytes>0</InputBytes>
+				<OutputBytes>3</OutputBytes>
+			</module>
+		</Modules>
+	</slave>
+	<slave>
+		<No type="festo">2</No>
+		<HibotID type="single">festo.1</HibotID>
+		<Device>CMMT-ST</Device>
+		<Params>
+			<param>
+				<Index>6098</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Method</Description>
+				<Value>17</Value>
+			</param>
+			<param>
+				<Index>607c</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Offset</Description>
+				<Value>0</Value>
+			</param>
+			<param>
+				<Index>6099</Index>
+				<SubIndex>1</SubIndex>
+				<Description>Default Homing Speed</Description>
+				<Value>0</Value>
+			</param>
+			<param>
+				<Index>609a</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Acceleration</Description>
+				<Value>0</Value>
+			</param>
+		</Params>
+	</slave>
+	<slave>
+		<No type="festo">3</No>
+		<HibotID type="single">festo.2</HibotID>
+		<Device>CMMT-AS</Device>
+		<Params>
+			<param>
+				<Index>6098</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Method</Description>
+				<Value>17</Value>
+			</param>
+			<param>
+				<Index>607c</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Offset</Description>
+				<Value>0</Value>
+			</param>
+			<param>
+				<Index>6099</Index>
+				<SubIndex>1</SubIndex>
+				<Description>Default Homing Speed</Description>
+				<Value>0</Value>
+			</param>
+			<param>
+				<Index>609a</Index>
+				<SubIndex>0</SubIndex>
+				<Description>Default Homing Acceleration</Description>
+				<Value>0</Value>
+			</param>
+		</Params>
+	</slave>
+</file>
